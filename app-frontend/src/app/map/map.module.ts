@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AgmCoreModule } from '@agm/core';
 
+import { AppRoutingModule }   from '../app-routing.module';
+
 import { MapComponent }   from './map.component';
 
 @NgModule({
@@ -17,7 +19,8 @@ import { MapComponent }   from './map.component';
     FormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCmBu6hEqVIMBpn6BzdqONi1MMnN_Jrq_s'
-    })
+    }),
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [MapComponent]

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
 export class MapComponent {
-  title = 'app';
+  title = 'Welcome!';
   lat: number = 51.678418;
   lng: number = 7.809007;
 }
